@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="This is where your description goes" />
+    <meta name="keywords" content="one, two, three" />
+     <!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">  -->
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" href="CSS/style.css" />
+
+
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+    </dict>
+
+
+
+    <title>Capital Breeze</title>
+
+    <!-- external CSS link -->
+
+    <!-- <link rel="stylesheet" href="css/normalize.css" />
+  
+    <link rel="stylesheet" href="css/style.css" /> -->
+  </head>
+  <body>
+    <header>
+      <h1>Whats the weather</h1>
+    </header>
+
+    <div class="Input">
+      <input type="text" name="" value="" placeholder="City" />
+      <button type="button" name="button">Get weather</button>
+    </div>
+    <div class="Info">
+      <p class='container1'> City:
+        <h3 class="city"></h3>
+      </p>
+
+      <p >
+        Temperature:
+        <h3 class="temp"></h3>
+      </p>
+
+      <p>
+        Forcast:
+        <h3 class="description"></h3>
+      </p>
+      <img src="" />
+    </div>
+
+    <script type="" src="JS/main.js"></script>
+  </body>
+</html>
