@@ -3,7 +3,7 @@ document.querySelector("button").addEventListener("click", gettFetch);
 function gettFetch() {
   const choice = document.querySelector("input").value;
   console.log(choice);
-  const url = `http://api.weatherapi.com/v1/current.json?key=b0aea7fde79144bdb26202320222404&q=${choice}&aqi=no`;
+  const url = API_Key
 
   fetch(url)
     .then((res) => res.json()) // parse response as JSON
